@@ -46,4 +46,8 @@
 #
 # Fixed with sudo apt-get install docker.io
 # Installed Docker version 1.6.2, build 7c8fca2
+#
+# Docker Images
+#     https://hub.docker.com/_/ubuntu/
+
 
