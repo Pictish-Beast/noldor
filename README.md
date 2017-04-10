@@ -49,5 +49,10 @@
 #
 # Docker Images
 #     https://hub.docker.com/_/ubuntu/
+#
+# Git Setup
+#
+# git config --global user.email "you@example.com"
+# git config --global user.name "Your Name"
 
 
