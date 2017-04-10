@@ -51,6 +51,7 @@
 #     https://hub.docker.com/_/ubuntu/
 #
 # Git Setup
+# https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
 #
 # git config --global user.email "you@example.com"
 # git config --global user.name "Your Name"
