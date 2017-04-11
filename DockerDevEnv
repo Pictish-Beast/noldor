@@ -1,0 +1,15 @@
+#
+# Docker file to create a dev sandbox
+
+from ubuntu:latest
+# Install Gradle 
+RUN apt-get update
+RUN apt-get -y install gradle
+RUN gradle -v
+
+# Install Java and Groovy
+RUN apt-get -y install openjdk-8-jdk
+RUN apt-get -y install ant
+RUN apt-get -y install groovy
+RUN groovy -v
+
