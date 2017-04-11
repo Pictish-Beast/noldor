@@ -16,3 +16,6 @@ RUN apt-get -y install ant
 RUN apt-get -y install groovy
 RUN groovy -v
 
+#install vi
+RUN sudo apt-get install vim
+
