@@ -52,6 +52,7 @@
 #
 # Git Setup
 # https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+# http://rogerdudler.github.io/git-guide/
 #
 # git config --global user.email "you@example.com"
 # git config --global user.name "Your Name"
