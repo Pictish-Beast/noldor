@@ -1,5 +1,8 @@
 #
 # Docker file to create a dev sandbox
+#  sudo docker build -t dev-sandbox -f DockerDevEnv .
+# sudo docker run -i -t dev-sandbox:latest /bin/sh
+
 
 from ubuntu:latest
 # Install Gradle 
