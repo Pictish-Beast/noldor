@@ -1,7 +1,8 @@
 #
 # Docker file to create a dev sandbox
 #  sudo docker build -t dev-sandbox -f DockerDevEnv .
-# sudo docker run -i -t dev-sandbox:latest /bin/sh
+# 
+
 
 
 from ubuntu:latest
@@ -17,5 +18,8 @@ RUN apt-get -y install groovy
 RUN groovy -v
 
 #install vi
-RUN sudo apt-get install vim
+RUN apt-get install vim
+
+#install git
+RUN apt-get install git-all
 
