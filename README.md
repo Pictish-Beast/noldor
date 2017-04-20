@@ -57,4 +57,24 @@
 # git config --global user.email "you@example.com"
 # git config --global user.name "Your Name"
 
+#
+# Scala & Play Setup
+#
+# Setup source required for fetching sbt distribution
+# echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+# Fetch public key for sbt build tool
+# sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+# sudo apt-get update
+# sudo apt-get install sbt
+
+# https://downloads.lightbend.com/scala/2.12.2/scala-2.12.2.deb
+# git clone https://github.com/playframework/play-scala-starter-example.git
+#
+# Tips & Tricks
+#
+# Find out package dependencies
+# apt-cache dependns <Package Name>
+#
+# Ubuntu version details
+#   cat /etc/*release
 
