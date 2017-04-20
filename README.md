@@ -77,4 +77,8 @@
 #
 # Ubuntu version details
 #   cat /etc/*release
+#
+# Git
+#    .git/info/exclude  #ignore objects and archives, anywhere in the tree
+#   
 
