@@ -80,5 +80,17 @@
 #
 # Git
 #    .git/info/exclude  #ignore objects and archives, anywhere in the tree
-#   
+#     Git Cheat Sheet
+#         Update/Commit Cycle
+#             git pull    // Get Latest
+#             git add     // Add any new resources
+#             git commit  // Ready for committing 
+#                 or git commit -a // Commit all changes
+#             git push    // Update changes on github
+#        Discard a change
+#             git checkout -- <filename>
+#        Check changes
+#             git diff
+
+#
 
