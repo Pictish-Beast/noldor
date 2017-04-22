@@ -75,9 +75,26 @@
 # Find out package dependencies
 # apt-cache dependns <Package Name>
 #
-# Ubuntu version details
-#   cat /etc/*release
+# Ubuntu
+#   version details
+#     cat /etc/*release
+#   shell being used
+#     echo $0
 #
+#   Respository Managment
+#
+#   Ubuntu Packages - http://packages.ubuntu.com
+#   Aptitude - https://wiki.debian.org/Aptitude
+#   sources.list.d // add new repositories w/o the need to edit the central /etc/apt/sources.list file
+#   apt-key is a program that is used to manage a keyring of gpg keys for secure apt. The keyring is kept in the file 
+# /etc/apt/trusted.gpg (not to be confused with the related but not very interesting  /etc/apt/trustdb.gpg). 
+# apt-key can be used to show the keys in the keyring, and to add or remove a key.
+#
+# Each time you add another apt repository to /etc/apt/sources.list, you'll also have to give apt its key if you want apt to trust it.
+# Once you have obtained the key, you can validate it by checking the key's fingerprint and then signing this public 
+# key with your private key. You can then add the key to apt's keyring with apt-key add 
+#
+
 # Git
 #    .git/info/exclude  #ignore objects and archives, anywhere in the tree
 #     Git Cheat Sheet
@@ -92,5 +109,10 @@
 #        Check changes
 #             git diff
 
+#
+# Docker
+#
+# Delete all running and stopped containers
+#    docker rm -f $(docker ps -aq)
 #
 
